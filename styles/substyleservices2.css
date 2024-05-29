@@ -1,0 +1,432 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.TopBanner {
+  background-color: #074222;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 150px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+}
+
+.TopBanner p {
+  color: white;
+}
+
+.TopBanner a {
+  color: #fbb03b;
+}
+
+.Menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+
+.Menu .logo {
+  display: flex;
+  align-items: center;
+}
+
+.Menu .logo p {
+  padding-left: 10px;
+  color: #3d3e40;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.list button {
+  border: none;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 500;
+  color: #3d3e40;
+}
+
+.list2 {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.list2 span {
+  color: #fbb03b;
+}
+
+.list button:last-child {
+  background-color: #fbb03b;
+  border-radius: 5px;
+  padding: 10px;
+  color: #00431d;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.title {
+  background-image: url("../images/Rectangle 9 (1).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title span {
+  display: flex;
+  gap: 12px;
+  background-color: #00431dcc;
+  padding: 30px 230px;
+  color: white;
+  border-radius: 15px;
+}
+
+.title p {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.content {
+}
+
+.content1 {
+  padding: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.content1 h3 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.content1 .line {
+  width: 100px;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #fbb03b;
+}
+
+.content1 .images {
+  background-image: url("../images/TreeBG5.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 374px;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  margin: 10px 0px;
+  border-radius: 10px;
+  left: 30px;
+}
+
+.content1 .image {
+  background-image: url("../images/Rectangle 17.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 374px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  width: 100%;
+}
+
+.content_image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 67, 29, 0.9) 22.99%,
+    rgba(0, 67, 29, 0) 100%
+  );
+  padding: 30px 50px;
+  padding-top: 70px;
+}
+
+.content_image button {
+  background-color: transparent;
+  border: 1.5px solid white;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.content_image span {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+
+.last_line {
+  margin-top: 40px;
+  align-self: flex-start;
+}
+
+.content1 p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #3d3e40;
+}
+
+.content2 {
+  background-color: #eaeaea;
+  padding: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.content2 h3 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #3d3e40;
+}
+
+.content2 .line {
+  width: 100px;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #fbb03b;
+}
+
+.content2 p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.content2 .account {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.account .infor h4 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  color:black;
+}
+
+.account .infor h5 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color:black;
+}
+
+.footer {
+}
+
+.footer .contact_background {
+  background-image: url("../images/Tree BG.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .contact_content {
+  background-color: #00431dcc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 40px 90px;
+  gap: 100px;
+}
+
+.contact_content .text span {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.contact_content .text .line {
+  width: 100px;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #fbb03b;
+  margin: 20px 0px;
+}
+
+.contact_content .text p {
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+}
+
+.contact_types {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact_type {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.contact_type p {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+
+.contact_types button {
+  color: #00431d;
+  background-color: #fbb03b;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+}
+
+.information {
+  background-color: #00431d;
+  padding: 50px;
+  display: flex;
+  gap: 60px;
+}
+
+.information .logo {
+  background-color: #fbb03b;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px;
+  gap: 15px;
+  align-items: center;
+  width: 20%;
+}
+
+.information .logo span {
+  color: #00431d;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.information .logo .name_company {
+  display: flex;
+  flex-direction: column;
+}
+
+.information .logo .name_company p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #00431d;
+  line-height: 21px;
+}
+
+.infor {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  width: 100%;
+}
+
+.infor_content {
+  display: flex;
+  width: 100%;
+}
+
+.infor .infor_contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 24%;
+}
+
+.infor_contact .line {
+  width: 50px;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #fbb03b;
+}
+
+.infor_contact span {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.infor_contact .link {
+  display: flex;
+  flex-direction: column;
+}
+
+.infor_contact .link a {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.infor_contact .address .phone {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.phone img {
+  width: 24px;
+  height: 24px;
+}
+
+.phone p {
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.address .icon {
+  display: flex;
+  gap: 25px;
+  padding-top: 7px;
+}

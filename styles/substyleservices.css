@@ -1,0 +1,528 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.TopBanner {
+  background-color: #074222;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 150px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+}
+
+.TopBanner p {
+  color: white; 
+}
+
+.TopBanner a {
+  color: #fbb03b;
+}
+
+.Menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+
+.Menu .logo {
+  display: flex;
+  align-items: center;
+}
+
+.Menu .logo p {
+  padding-left: 10px;
+  color: #3d3e40;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.list button {
+  border: none;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 500;
+  color: #3d3e40;
+}
+
+.list2 {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.list2 span {
+  color: #fbb03b;
+}
+
+.list button:last-child {
+  background-color: #fbb03b;
+  border-radius: 5px;
+  padding: 10px;
+  color: #00431d;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.title {
+  background-image: url("../images/Rectangle9.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title span {
+  display: flex;
+  gap: 12px;
+  background-color: #00431dcc;
+  padding: 30px 230px;
+  color: white;
+  border-radius: 15px;
+}
+
+.title p {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.content {
+  padding: 150px;
+  background-color: #f5f5f5;
+}
+
+.introduct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.introduct h2 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #3d3e40;
+}
+
+.introduct .line {
+  width: 100px;
+  height: 2px;
+  background-color: #fbb03b;
+  border-radius: 2px;
+}
+
+.introduct p {
+  color: #3d3e40;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  width: 100%;
+  text-align: left;
+}
+
+.introduct a {
+  width: 100%;
+  text-align: left;
+  color: #fbb03b;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.content1 {
+  margin: 100px 0px;
+  display: flex;
+  gap: 130px;
+}
+
+.content .Text h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #3d3e40;
+}
+
+.content .Text .line {
+  width: 50px;
+  height: 2px;
+  background-color: #fbb03b;
+  border-radius: 2px;
+  margin: 20px 0px;
+}
+
+.content .Text p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #3d3e40;
+}
+
+.PruningIntro {
+  display: flex;
+  gap: 130px;
+}
+
+.PruningIntro .Text p {
+  margin-top: 20px;
+}
+
+.PruningStyles {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.Prunstyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3d3e40;
+  gap: 50px;
+  padding-bottom: 70px;
+}
+
+.Prunstyle4 {
+  padding-bottom: 0px;
+}
+
+.Prunstyle span {
+  display: flex;
+  gap: 5px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.PruningStyles p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.Prunstyle .number {
+  background-color: white;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.company {
+  display: flex;
+  gap: 40px;
+}
+
+.customer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  color: #3d3e40;
+}
+
+.customer h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.customer .line {
+  width: 50px;
+  height: 2px;
+  background-color: #fbb03b;
+  border-radius: 2px;
+}
+
+.customer_content {
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  width: 100%;
+}
+
+.customer_text {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.customer_text span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 12px;
+  gap: 8px;
+}
+
+.customer_text span p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.customer_button {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.customer_button .line {
+  width: 100px;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #fbb03b;
+}
+
+.customer_button button {
+  font-size: 16px;
+  font-weight: 600;
+  color: #00431d;
+  padding: 12px 22px;
+  background-color: #fbb03b;
+  border-radius: 3px;
+  border: none;
+}
+
+.customer .image {
+  display: flex;
+  align-items: center;
+}
+
+.customer .image .line {
+  width: 187px;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #fbb03b;
+}
+
+.customer_content .customer_content1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.customer_content1 .text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.customer_content1 .text span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #3d3e40;
+  padding: 10px 23px;
+}
+
+.footer {
+}
+
+.footer .contact_background {
+  background-image: url("../images/Tree BG.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .contact_content {
+  background-color: #00431dcc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 40px 90px;
+  gap: 100px;
+}
+
+.contact_content .text span {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.contact_content .text .line {
+  width: 100px;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #fbb03b;
+  margin: 20px 0px;
+}
+
+.contact_content .text p {
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+}
+
+.contact_types {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact_type {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.contact_type p {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+
+.contact_types button {
+  color: #00431d;
+  background-color: #fbb03b;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+}
+
+.information {
+  background-color: #00431d;
+  padding: 50px;
+  display: flex;
+  gap: 60px;
+}
+
+.information .logo {
+  background-color: #fbb03b;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px;
+  gap: 15px;
+  align-items: center;
+  width: 20%;
+}
+
+.information .logo span {
+  color: #00431d;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.information .logo .name_company {
+  display: flex;
+  flex-direction: column;
+}
+
+.information .logo .name_company p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #00431d;
+  line-height: 21px;
+}
+
+.infor {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  width: 100%;
+}
+
+.infor_content {
+  display: flex;
+  width: 100%;
+}
+
+.infor .infor_contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 24%;
+}
+
+.infor_contact .line {
+  width: 50px;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #fbb03b;
+}
+
+.infor_contact span {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.infor_contact .link {
+  display: flex;
+  flex-direction: column;
+}
+
+.infor_contact .link a {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.infor_contact .address .phone {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.phone img {
+  width: 24px;
+  height: 24px;
+}
+
+.phone p {
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.address .icon {
+  display: flex;
+  gap: 25px;
+  padding-top: 7px;
+}
